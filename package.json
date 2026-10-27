@@ -1,0 +1,9 @@
+{
+  "name": "bd-dsapi-loja-online",
+  "version": "1.0.0",
+  "description": "API REST para loja online - exercício acadêmico",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js", "dev": "nodemon src/server.js" },
+  "dependencies": { "bcryptjs": "^2.4.3", "dotenv": "^16.4.7", "express": "^4.21.2", "mysql2": "^3.12.0" },
+  "devDependencies": { "nodemon": "^3.1.9" }
+}
